@@ -1,6 +1,6 @@
 # MENSAJE INVISIBLE
 
-codifica y descodifica mensajes que no se pueden leer a simple vista.
+encripta y desencripta mensajes que no se pueden leer a simple vista.
 
 ## Demo
 
@@ -16,9 +16,9 @@ codifica y descodifica mensajes que no se pueden leer a simple vista.
 .....................................
 ```
 
-## ¿Cómo codifica el mensaje?
+## ¿Cómo encripta el mensaje?
 
-para codificar el mensaje lo que hace el script es:
+para encriptar  el mensaje lo que hace el script es:
 
 1- obtener el código ascii de cada letra, por ejemplo A es 65. si este valor es mayor a 60 en el siguiente paso usaremos como caracter un punto (.) o en caso contrario un guión (-).
 
@@ -26,10 +26,10 @@ para codificar el mensaje lo que hace el script es:
 
 3- cada línea representa una letra del mensaje.
 
-## ¿Cómo descodifica el mensaje?
+## ¿Cómo desencriptar el mensaje?
 
-para descifrar hace el proceso inverso.
+para desencriptar se hace el proceso inverso.
 
 ## Nota
 
-al principio quería usar solo espacios, pero puede algunos formularios los eliminen y luego sea imposible luego de descifrar el mensaje.
+al principio quería usar solo espacios, pero puede algunos formularios los eliminen y luego sea imposible luego de desencriptar el mensaje.
