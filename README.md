@@ -18,4 +18,4 @@ para descodificar hace el proceso inverso.
 
 ## Demo
 
-[https://vivirenremoto.github.io/labs/mensaje_invisible/](https://vivirenremoto.github.io/labs/mensaje_invisible/)
+[https://vivirenremoto.github.io/mensaje_invisible/](https://vivirenremoto.github.io/mensaje_invisible/)
