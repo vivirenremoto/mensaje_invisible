@@ -28,8 +28,8 @@ para codificar el mensaje lo que hace el script es:
 
 ## ¿Cómo descodifica el mensaje?
 
-para descodificar hace el proceso inverso.
+para descifrar hace el proceso inverso.
 
 ## Nota
 
-en principio quería usar solo espacios, pero puede algunos formularios eliminen los espacios y sea imposible luego de descifrar el mensaje.
+al principio quería usar solo espacios, pero puede algunos formularios los eliminen y luego sea imposible luego de descifrar el mensaje.

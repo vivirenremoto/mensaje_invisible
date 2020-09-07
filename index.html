@@ -21,19 +21,11 @@
     <h1>Mensaje invisible</h1>
 
     <p>
-        Texto (no puedes usar guiones, ni puntos)
         <textarea id="text" cols="10" rows="6"></textarea>
     </p>
 
     <p>
-        <select id="action">
-            <option value="encrypt" selected="selected">Codificar</option>
-            <option value="decrypt">Descodificar</option>
-        </select>
-    </p>
-
-    <p>
-        <button id="submit">Enviar</button>
+        <button id="submit_encrypt">Encriptar</button> <button id="submit_decrypt">Desencriptar</button>
     </p>
 
     <p>
@@ -99,15 +91,15 @@
             return result;
         }
 
-        $('#submit').click(function () {
+        $('button').click(function () {
 
 
-            var action = $('#action').val();
+            var id_button = $(this).attr('id');
             var text = $('#text').val();
 
-            if (action == 'encrypt') {
+            if (id_button == 'submit_encrypt') {
                 result = invisible_encrypt(text);
-            } else if (action == 'decrypt') {
+            } else if (id_button == 'submit_decrypt') {
                 result = invisible_decrypt(text);
             } else {
                 result = '';
