@@ -16,7 +16,7 @@ encripta y desencripta mensajes que no se pueden leer a simple vista.
 .....................................
 ```
 
-## ¿Cómo encripta el mensaje?
+## ¿Cómo se encripta el mensaje?
 
 para encriptar  el mensaje lo que hace el script es:
 
