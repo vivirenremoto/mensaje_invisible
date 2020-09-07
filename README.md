@@ -26,9 +26,9 @@ para encriptar  el mensaje lo que hace el script es:
 
 3- cada línea representa una letra del mensaje.
 
-## ¿Cómo desencriptar el mensaje?
+## ¿Cómo se desencriptar el mensaje?
 
-para desencriptar se hace el proceso inverso.
+se hace el proceso inverso.
 
 ## Nota
 
